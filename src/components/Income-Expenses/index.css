@@ -1,21 +1,21 @@
 .inc-exp-container {
   display: flex;
-   justify-content: space-between;
-   background-color: #fff;
-   /* box-shadow: var(--box-shadow); */
-   margin: 0px 0 10px 0;
-   padding: 15px;
-   border-radius: 10px;
- }
+  justify-content: space-between;
+  background-color: #fff;
+  /* box-shadow: var(--box-shadow); */
+  margin: 0px 0 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+}
  
- .inc-exp-container > div {
-   flex: 1;
-   text-align: center;
- }
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
  
- .inc-exp-container > div:first-of-type {
-   border-right: 1px solid #dedede;
- }
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
 
 .money {
   font-size: 20px;

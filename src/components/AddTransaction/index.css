@@ -40,7 +40,7 @@ input[type='text'] {
   border: none;
   border-radius: 10px;
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   padding: 10px;
   margin-top: -5px;
   width: 100%;
@@ -51,7 +51,7 @@ input[type='text'] {
 }
 
 .description {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   margin-left: 3px;
 }
@@ -60,7 +60,7 @@ input[type='number'] {
   border: none;
   border-radius: 10px;
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   padding: 10px;
   margin-top: -5px;
   width: 100%;

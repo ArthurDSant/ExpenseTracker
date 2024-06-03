@@ -14,4 +14,4 @@ It was great for reinforcing my knowledge of Javascript in the parts that involv
 The objective of this project from the beginning was to learn how to structure and organize an application in VUE.Js, which was successful. After this application I feel more confident in using this Framwork as a tool for a larger and more complex project in the future.
 ## Screenshot
 
-![Expense-Tracker](https://github.com/ArthurSantDev/Expense-Tracker/assets/159972613/ebcd950b-dd19-4186-999d-8092c2fab57b)
+![Expense Tracker](https://github.com/ArthurSantDev/ExpenseTracker/assets/159972613/0e095192-3b79-4a5b-bc6b-8b044c37b67d)
