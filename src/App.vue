@@ -1,15 +1,17 @@
 <template>
-  <div class="App">
-    <div class="header">
-      <Header />
+  <div class="background">
+    <div class="App">
+      <div class="header">
+        <Header />
+      </div>
+      <Balance :total="total" />
+      <IncomeExpenses :income="+income" :expenses="+expenses" />
+      <History
+        :transactions="transactions"
+        @transactionDeleted="handleTransactionDeleted"
+      />
+      <AddTransaction @transactionSubmitted="handleTransactionSubmitted" />
     </div>
-    <Balance :total="total" />
-    <IncomeExpenses :income="+income" :expenses="+expenses" />
-    <History
-      :transactions="transactions"
-      @transactionDeleted="handleTransactionDeleted"
-    />
-    <AddTransaction @transactionSubmitted="handleTransactionSubmitted" />
   </div>
 </template>
 

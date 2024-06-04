@@ -19,14 +19,22 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  font-size: 18px;
-  background-image: url('public/full_blur.png');
-  background-size: cover;
+  font-size: 14px;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/full_blur.png');
+  overflow-y: auto;
+  background-size: cover; /* Adiciona isso para a imagem de fundo cobrir todo o contêiner */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
 }
 
 .App {
-  margin: 0px auto;
-  width: 380px;
+  margin: 12px auto 0px;
+  width: 360px;
   padding: 20px 30px;
   border-radius: 20px;
   background-color: #f1f1f1;
@@ -38,4 +46,18 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 3px;
+  background-color: blue;
 }
